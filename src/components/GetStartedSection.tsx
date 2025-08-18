@@ -49,7 +49,12 @@ const GetStartedSection = () => {
                 ))}
               </div>
 
-              <Button variant="hero" size="lg" className="w-full">
+              <Button 
+                variant="hero" 
+                size="lg" 
+                className="w-full"
+                onClick={() => window.location.href = '/auth'}
+              >
                 Start Creating Exams
                 <ArrowRight className="w-5 h-5" />
               </Button>
@@ -90,7 +95,12 @@ const GetStartedSection = () => {
                 ))}
               </div>
 
-              <Button variant="gradient" size="lg" className="w-full">
+              <Button 
+                variant="gradient" 
+                size="lg" 
+                className="w-full"
+                onClick={() => window.location.href = '/auth'}
+              >
                 Start Taking Exams
                 <ArrowRight className="w-5 h-5" />
               </Button>
